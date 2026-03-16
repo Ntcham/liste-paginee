@@ -1,0 +1,5 @@
+Pour respecter l'ordre d'insertion, il va falloir que l'operation d'ajout ne place 
+plus un élément dans la premiere case libre mais le placer a la fin de la liste de 
+page, autrement dit la derniere page. 
+Aussi apres suppression d'un element, il faut decaler les elements suivants vers la gauche pour 
+conserver l'ordre d'insertion.
